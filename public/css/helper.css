@@ -1,0 +1,300 @@
+.ft {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Margin */
+.m8 {
+	margin: 8px 0;
+}
+.m10{
+	margin: 10px 0;
+}
+
+.m12{
+	margin: 12px 0;
+}
+
+.m20{
+	margin: 20px 0;
+}
+
+.m24 {
+	margin: 24px 0;
+}
+
+.m27 {
+	margin: 27px 0;
+}
+
+.m29 {
+	margin: 29px 0;
+}
+
+
+.m30{
+	margin: 30px 0;
+}
+
+
+.m40{
+	margin: 40px 0;
+}
+
+
+.m50{
+	margin: 50px 0;
+}
+
+
+.m60{
+	margin: 60px 0;
+}
+
+
+.m70{
+	margin: 70px 0;
+}
+
+
+.m80{
+	margin: 80px 0;
+}
+
+
+.m90{
+	margin: 90px 0;
+}
+
+
+.m100{
+	margin: 100px 0;
+}
+
+/* font size */
+
+.fs12{
+	font-size: 12px
+}
+
+
+.fs14{
+	font-size: 14px
+}
+
+
+.fs16{
+	font-size: 16px
+}
+
+
+.fs18{
+	font-size: 18px
+}
+
+.fs19{
+	font-size: 19px
+}
+
+.fs20{
+	font-size: 20px
+}
+
+
+.fs22{
+	font-size: 22px
+}
+
+
+.fs25{
+	font-size: 25px
+}
+
+
+.fs30{
+	font-size: 30px
+}
+
+.fs32{
+	font-size: 32px
+}
+
+.fs34 {
+	font-size: 34px
+}
+
+
+.fs35{
+	font-size: 35px
+}
+
+.fs36{
+	font-size: 36px
+}
+
+.fs39{
+	font-size: 39px
+}
+
+.fs40{
+	font-size: 40px
+}
+
+.fs45{
+	font-size: 45px
+}
+.fs48{
+	font-size: 48px
+}
+
+.fs50{
+	font-size: 50px
+}
+
+.fs60{
+	font-size: 60px
+}
+
+.fs63{
+	font-size: 63px
+}
+
+.fs70{
+	font-size: 70px
+}
+
+.fs80{
+	font-size: 80px
+}
+
+.fs90{
+	font-size: 90px
+}
+.fs130{
+	font-size: 130px
+}
+/* font styles */
+
+.upper{
+	text-transform: uppercase;
+}
+.ac{
+	text-align: center;
+}
+.img-center{
+	margin: 0 auto;
+}
+
+
+/* colors */
+
+.white{
+	color: #fff;
+}.black{
+	color: #000;
+}
+.yellow{
+	color: #ffce00;
+}
+.navyblue{
+	color: #030a57;
+}
+.gray{
+	color: #B3B3B3
+}
+.purple {
+	color: #481ae7 !important
+}
+
+.red {
+	color: #df231a
+}
+
+.orange {
+	color:#f85e08
+}
+
+.blue{
+	color: #1335B9
+}
+
+
+/* buttons */
+
+.transition, .transition:hover{
+	-webkit-transition: all .35s ease-in-out;
+	   -moz-transition: all .35s ease-in-out;
+	    -ms-transition: all .35s ease-in-out;
+	     -o-transition: all .35s ease-in-out;
+	        transition: all .35s ease-in-out;
+}
+
+
+/*others */
+
+.jcc{
+	justify-content:center;
+}
+.aic{
+	align-items: center;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.modal-content {
+    border-radius: 0!important;
+    outline: 0!important;
+    border: 0!important;
+    padding: 44px 40px!important;
+}
+.modal-header, .modal-body {
+    padding: 15px;
+    border-bottom: 0!important;
+}
+.jcsb{
+
+	justify-content: space-between;
+}
+
+.lh0{
+	line-height: 0;
+}
+
+
+.lh1{
+	line-height: 1;
+}
+
+.lh{
+	line-height: normal;
+}
+
+.lh34 {
+    line-height: 34px;
+}
+
+.lh30 {
+    line-height: 30px;
+}
+.jcs{
+	justify-content: flex-start;
+}
+.jce{
+	justify-content: flex-end;
+}
+
+.pdt {
+	padding-top: 200px
+}
+
+.pdt1 {
+	padding-top: 150px
+}
+
+.lsp{
+	letter-spacing: 20px
+}
+
+.lsp6 {
+	letter-spacing: 6.6px
+}

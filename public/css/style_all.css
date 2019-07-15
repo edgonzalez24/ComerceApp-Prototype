@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap");
+.menu {
+  padding: 0;
+  background: linear-gradient(90deg, #031FC6 0%, #8BDA5A 100.79%);
+  background-size: cover;
+  color: white;
+  height: 70px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  width: 100%;
+  margin: 0;
+  background: transparent;
+}
+
+header nav ul li a {
+  padding: 20px;
+}
+
+header nav ul li a:hover {
+  border-top: 3px solid #fff;
+}
+
+.menu_bar {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.fs {
+  font-size: 16px;
+}
+
+.banner_2 {
+  background: linear-gradient(90deg, #031FC6 0%, #8BDA5A 100.79%);
+  width: 100%;
+  background: cover;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 82px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.banner_3 {
+  background-color: #1D42B1;
+  background-size: cover;
+  width: 100%;
+}
+
+.rs {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+.rs_descripcion {
+  font-size: 16px !important;
+}
+
+.banner_4 {
+  background-color: #88D65C;
+  width: 100%;
+  background-size: cover;
+}
+
+.banner_5 {
+  background-color: #1D42B1;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner_6 {
+  background-color: #F5F5F5;
+  background-size: cover;
+  width: 100%;
+}
+
+.fq {
+  font-family: "Open Sans", sans-serif;
+  font-size: 53px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.fq_description {
+  color: #9B9B9B;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: none;
+}
+.fq_description1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.fq_description2 {
+  font-size: 16px;
+  color: #9B9B9B;
+}
+
+.banner_8 {
+  background-color: #F5F5F5;
+  background-size: cover;
+  height: 640px;
+  width: 100%;
+}
+
+.sub-banner8 {
+  background-color: #fff;
+  background-size: contain;
+  background-position-x: center;
+  height: 390px;
+  width: 100%;
+}
+
+.contact {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.fmComerce {
+  font-size: 20px;
+}
+
+:placeholder {
+  color: #F5F5F5 !important;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+  color: #F5F5F5 !important;
+  opacity: 1 !important;
+}
+
+::-ms-input-placeholder {
+  color: #F5F5F5 !important;
+  opacity: 1 !important;
+}
+
+.in {
+  border-bottom: 2px solid #F5F5F5;
+  height: 40px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.bton {
+  background-color: #1335B9;
+  padding: 8px 30px;
+  border: 2px solid #1335B9;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.bton:hover {
+  background-color: transparent;
+  color: #1335B9;
+  border: 2px solid #1335B9;
+  transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .images {
+    width: 60%;
+  }
+
+  .rs {
+    text-align: center;
+  }
+
+  .comerce {
+    display: none;
+  }
+
+  .terminos {
+    display: none;
+  }
+
+  .menu_bar {
+    position: fixed;
+    display: block;
+  }
+
+  .fs {
+    font-size: 12px;
+  }
+
+  .banner_8 {
+    background: none;
+  }
+
+  header nav {
+    background: #fff;
+    width: 80%;
+    height: 100%;
+    right: -100%;
+    margin: 0;
+    position: fixed;
+    margin-top: 76px;
+  }
+
+  header nav ul li {
+    display: block;
+    float: none;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+    padding: 8px;
+    color: black !important;
+  }
+
+  .menu_bar {
+    display: block;
+    width: 100%;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    background: linear-gradient(90deg, #031FC6 0%, #8BDA5A 100.79%);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .menu_bar span {
+    float: right;
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style_all.css.map */
