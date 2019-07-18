@@ -118,10 +118,10 @@ html
               h3(class="text-4xl lg:text-4.5xl font-extrabold mb-5 text-white leading-none") Planes de servicios
               p(class="text-white") Sé parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
           div(class="xl:w-2/3 flex flex-col xl:flex-row lg:p-6")
-            div(class="xl:w-1/2 p-5")
+            div(class="xl:w-1/2 p-4")
               div(class="bg-colors h-6 w-full -mb-2 rounded-t-lg")
               div(class="w-full h-full bg-white rounded-b-md px-6 py-6")
-                div(class="h-full")
+                div(class="h-full py-6")
                   h2(class="uppercase text-center text-3xl gray font-bold ") plan básico
                   div(class="ln")
                   h3(class="font-bold text-2xl text-center") Beneficios
@@ -130,21 +130,60 @@ html
                   li(class="py-3 gray") Recordatorios de reservas a tus clientes
                   li(class="py-3 gray") Calificaciones de tu clientes 
                   li(class="py-3 gray") Acceso a tu propia web servicios donde <br> podras:
-                  li(class="py-3 gray") Manejar tus reservas
-                  li(class="py-3 gray") Agregar Reservas 
-                  li(class="py-3 gray") Guardar información sobre tus clientes
-                  li(class="py-3 gray") Modificar horarios de trabajo
-                  li(class="py-3 gray") Soporte y ayuda
-                div(class="flex justify-center")
-                  a(href="#")
-                    button(class="p-4 px-6 rounded text-white font-semibold bg-blue-500 hover:bg-blue-600" ) Elegir Plan     
+                  li(class="py-1 gray") Manejar tus reservas
+                  li(class="py-1 gray") Agregar Reservas 
+                  li(class="py-1 gray") Guardar información sobre tus clientes
+                  li(class="py-1 gray") Modificar horarios de trabajo
+                  li(class="py-1 gray") Soporte y ayuda
+              div(class="flex justify-center -mt-6")
+                a(href="#")
+                  button(class="p-4 px-6 rounded text-white font-semibold bg-blue-500 hover:bg-gray-500" ) Elegir Plan     
             div(class="xl:w-1/2 p-5")
               div(class="bg-colors h-6 w-full -mb-2 rounded-t-lg")
               div(class="w-full h-full bg-white rounded-b-md px-6 py-6")
-                div(class="h-full")
+                div(class="h-full py-6")
                   h2(class="uppercase text-center text-3xl gray font-bold ") plan premium
                   div(class="ln")
                   h3(class="font-bold text-2xl text-center") Beneficios
+                  li(class="py-3 gray") El plan premium incluye       todo lo que el plan básico  <span class="font-bold"> más
+                  li(class="py-3 gray") Todo tipo de reportería:
+                  li(class="py-1 gray") Ventas
+                  li(class="py-1 gray") Reservas 
+                  li(class="py-1 gray") Clientes
+                  li(class="py-1 gray") Equipo
+                  li(class="py-1 gray") Tus promociones
+                  li(class="py-3 gray") Podrás observar opiniones y criticas de tus clientes
+                  li(class="py-3 gray") Podrás tener hasta 4 promociones activas del mes
+              div(class="flex justify-center -mt-6")
+                a(href="#")
+                  button(class="p-4 px-6 rounded text-white font-semibold bg-blue-500 hover:bg-gray-500" ) Elegir Plan  
+    section(id="section8")  
+          div(class="banner_8")  
+            div(class="container m-auto py-10 ")
+              div(class=" contact") 
+                p(class="text-center") Contáctanos
+                  div(class="container py-8 lg:px-24 px-5")
+                    div(class="sub-banner8")
+                      div(class="fmComerce px-5 lg:px-20 py-10")
+                        form(action="" method="" id="form_comerceapp")
+                          div(class="flex flex-wrap justify-between")
+                            div(class="lg:w-1/2 -mx-6")
+                              div(class="lg:py-6 px-6")
+                                label(for="" class="blue font-bold px-5 ") Nombre <br>
+                                input(type="text" placeholder="Cameron Rogers" class="in px-5" id="nombre")
+                              div(class="py-6 px-6" )
+                                label(for="" class="blue font-bold px-5") Email <br>
+                                input(type="email" placeholder="sheila.legros@hotmail.com" class="in" id="email")  
+                            div(class="lg:w-1/2 -mx-6")
+                              div(class="py-6 px-6")
+                                label(for="" class="blue font-bold px-5") Mensaje <br>
+                                input(type="text" placeholder="Escribe tu consulta..." class="in" id="mensaje")
+                              div(class="py-10 px-6")
+                                input(type="submit"  class="bton" id="enviar" value="Enviar Mensaje ")
+  script(src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous")
+  script(src="https://unpkg.com/sweetalert/dist/sweetalert.min.js")
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+  script(src="./public/js/main.js")                                                
             
 
 
