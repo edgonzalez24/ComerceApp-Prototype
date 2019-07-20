@@ -90,3 +90,19 @@ if(nombre === "" || email==="" || mensaje===""){
   }
 
  });
+
+
+
+//  $(document).ready(function(){
+
+//   $("#plus").click(function(evento){
+
+//     if $("#tabs").css("display", "none");
+//    });
+// });
+
+$('#plus').click(function(){
+  $('.symbol').html("-").fadeIn(50);
+  $('#tabs').toggle(1000);
+  
+});

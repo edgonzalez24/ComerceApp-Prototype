@@ -171,6 +171,10 @@ footer {
   transition: all 0.5s;
 }
 
+#tabs {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .logo {
     display: none;
