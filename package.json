@@ -25,6 +25,6 @@
   "dependencies": {
     "lodash": "^4.17.20",
     "lodash.update": "^4.10.2",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   }
 }
