@@ -23,7 +23,7 @@
     "tailwindcss": "^1.9.6"
   },
   "dependencies": {
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "lodash.update": "^4.10.2",
     "pug": "^2.0.4"
   }
